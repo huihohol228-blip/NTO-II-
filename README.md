@@ -55,7 +55,7 @@
 
 ```bash
 # 1. Установите зависимости
-pip install numpy pandas scikit-learn lightgbm nltk tqdm
+pip install numpy pandas scikit-learn lightgbm tqdm nltk optuna scipy catboost sentence-transformers torch
 
 # 2. Положите данные в корень:
 #    train.csv, test.csv, books.csv, users.csv, book_descriptions.csv
